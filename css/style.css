@@ -5799,7 +5799,7 @@ html [class*='section-'].section-top-0 {
 	}
 }
 
-.primary-overlay {
+/* .primary-overlay {
 	position: relative;
 }
 
@@ -5813,7 +5813,7 @@ html [class*='section-'].section-top-0 {
 	background: rgba(51, 51, 51, 0.45);
 	pointer-events: none;
 	z-index: 1;
-}
+} */
 
 /*
 *
@@ -8579,7 +8579,7 @@ html.rd-navbar-fixed-linked .page {
 
 @media (min-width: 1200px) {
 	.rd-navbar-modern.rd-navbar-static .rd-nav-item + .rd-nav-item {
-		margin-left: 55px;
+		margin-left: 30px;
 	}
 }
 
@@ -13797,19 +13797,19 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	background-color: #47505f;
 	background-position: 50%;
 }
-
+/* 
 .material-parallax {
 	position: absolute;
 	top: 0;
 	left: -1px;
 	right: -1px;
 	bottom: 0;
-}
+} */
 
 .ipad .parallax-container, .iphone .parallax-container {
 	background-attachment: scroll !important;
 }
-
+/* 
 .material-parallax img {
 	display: none;
 	position: absolute;
@@ -13819,7 +13819,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 	min-height: 101%;
 	max-width: none;
 	transform: translate3d(-50%, 0, 0);
-}
+} */
 
 .parallax-content {
 	position: relative;
