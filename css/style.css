@@ -8654,45 +8654,45 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-modern.rd-navbar-static.rd-navbar--is-stuck .rd-nav-link, .rd-navbar-modern.rd-navbar-static.rd-navbar--is-clone .rd-nav-link {
 	padding: 22px 0;
 }
-
+/* 
 .rd-navbar-modern.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-project-hamburger-open, .rd-navbar-modern.rd-navbar-static.rd-navbar--is-clone .rd-navbar-project-hamburger-open {
 	bottom: 22px;
-}
+} */
 
 .rd-navbar-modern.rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav-item > .rd-navbar-submenu, .rd-navbar-modern.rd-navbar-static.rd-navbar--is-clone .rd-navbar-nav-item > .rd-navbar-submenu {
 	margin-top: 17px;
 }
 
-.rd-navbar-modern.rd-navbar-static .rd-navbar-project-hamburger-open {
+/* .rd-navbar-modern.rd-navbar-static .rd-navbar-project-hamburger-open {
 	position: absolute;
 	right: 4px;
 	bottom: 16px;
-}
+} */
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
 	.rd-navbar-modern.rd-navbar-static .rd-navbar-project-hamburger-open {
 		bottom: 26px;
 	}
-}
+} */
 
 .rd-navbar-modern.rd-navbar-fixed .rd-navbar-aside {
 	padding: 30px 30px 0;
 }
 
-.rd-navbar-modern.rd-navbar-fixed .rd-navbar-project-hamburger-open {
+/* .rd-navbar-modern.rd-navbar-fixed .rd-navbar-project-hamburger-open {
 	height: 48px;
 	width: 48px;
 	padding: 8px 21px;
-}
+} */
 
-.rd-navbar-modern.rd-navbar-fixed .project-hamburger {
+/* .rd-navbar-modern.rd-navbar-fixed .project-hamburger {
 	height: 32px;
-}
+} */
 
-.rd-navbar-modern.rd-navbar-fixed .project-hamburger > span {
+/* .rd-navbar-modern.rd-navbar-fixed .project-hamburger > span {
 	height: 6px;
 	background: #6046b6;
-}
+} */
 
 .rd-navbar-modern.rd-navbar-fixed .rd-navbar-brand img {
 	max-width: 160px;
@@ -8812,7 +8812,7 @@ html.rd-navbar-fixed-linked .page {
 	}
 }
 
-.rd-navbar-project-hamburger {
+/* .rd-navbar-project-hamburger {
 	position: relative;
 	width: 34px;
 	height: 36px;
@@ -8820,28 +8820,28 @@ html.rd-navbar-fixed-linked .page {
 	transition: all .3s ease;
 	cursor: pointer;
 	z-index: 10;
-}
+} */
 
-.rd-navbar-project-hamburger.active .project-close > span:nth-child(1) {
+/* .rd-navbar-project-hamburger.active .project-close > span:nth-child(1) {
 	height: 100%;
 	transition-delay: .3s;
-}
-
+} */
+/* 
 .rd-navbar-project-hamburger.active .project-close > span:nth-child(2) {
 	width: 100%;
 	transition-delay: .45s;
-}
+} */
 
-.project-hamburger {
+/* .project-hamburger {
 	display: flex;
 	overflow: hidden;
 	align-self: center;
 	flex-direction: column;
 	justify-content: space-between;
 	height: 24px;
-}
+} */
 
-.project-hamburger > span {
+/* .project-hamburger > span {
 	position: relative;
 	display: inline-block;
 	align-self: flex-end;
@@ -8849,8 +8849,8 @@ html.rd-navbar-fixed-linked .page {
 	width: 100%;
 	background: #151515;
 	transition: width .2s ease;
-}
-
+} */
+/* 
 .project-hamburger > span::after {
 	position: absolute;
 	display: inline-block;
@@ -8882,7 +8882,7 @@ html.rd-navbar-fixed-linked .page {
 	left: 0;
 	width: 36px;
 	margin-top: -18px;
-}
+} */
 
 .project-close {
 	position: absolute;
