@@ -4130,6 +4130,7 @@ hr + .footer-social-list {
 .services-terri {
 	position: relative;
 	text-align: center;
+	height: 400px;
 }
 
 .services-terri::before {
