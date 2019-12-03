@@ -1540,14 +1540,11 @@ button {
 
 .button-primary, .button-primary:focus {
 	color: #151515;
-	background-color: #ffe745;
-	border-color: #ffe745;
+	background-color: #3885fa;
 }
 
 .button-primary:hover, .button-primary:active {
 	color: #ffffff;
-	background-color: #73cca1;
-	border-color: #6046b6;
 }
 
 .button-primary.button-ujarak::before {
