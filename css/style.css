@@ -118,7 +118,6 @@ h1, h2, h3, h4, h5, h6, [class^='heading-'] {
 	font-weight: 500;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	/* font-family: "Asfalto"; */
 	color: #151515;
 }
 
@@ -408,7 +407,6 @@ a[href*='tel'], a[href*='mailto'] {
 	line-height: 1.3;
 	letter-spacing: .2em;
 	text-transform: uppercase;
-	/* font-family: "Asfalto"; */
 	color: #ffffff;
 }
 
@@ -713,7 +711,6 @@ a[href*='tel'], a[href*='mailto'] {
 	line-height: 1.33;
 	font-weight: 500;
 	letter-spacing: .1em;
-	/* font-family: "Asfalto"; */
 	color: #151515;
 }
 
@@ -10688,7 +10685,6 @@ html.rd-navbar-fixed-linked .page {
 }
 
 .isotope-filters-modern .inline-list > li {
-	/* font-family: "Asfalto"; */
 	font-size: 18px;
 }
 
@@ -10810,7 +10806,6 @@ html.rd-navbar-fixed-linked .page {
 	font-weight: 500;
 	letter-spacing: .1em;
 	text-transform: uppercase;
-	/* font-family: "Asfalto"; */
 	color: #777777;
 	background: #ffffff;
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.17);
@@ -10924,7 +10919,6 @@ html.rd-navbar-fixed-linked .page {
 	border-radius: 0;
 	border: 0;
 	color: #777777;
-	/* font-family: "Asfalto"; */
 }
 
 .tabs-custom .nav-link.active {
