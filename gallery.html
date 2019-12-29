@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="js/Story-Show-Gallery-master/ssg.css" type="text/css">
   </head>
   <body>
     <div class="preloader">
@@ -120,10 +119,44 @@
         </div>
       </section>
 
-      <section class="fs gallery">
-          <a href="images/car.jpg"><img src="images/car-small.jpg" onclick="SSG.run({fs:true, initImgID: 4 });"></a>
-          <a href="images/car.jpg"><img src="images/car-small.jpg" onclick="SSG.run({fs:true, initImgID: 4 });"></a>
-          <a href="images/car.jpg"><img src="images/car-small.jpg" onclick="SSG.run({fs:true, initImgID: 4 });"></a>
+      <section class="gallery">
+        <div class="container">
+          <div class="row gutters-20" data-lightgallery="group">
+            <article class="thumbnail thumbnail-creative">
+              <a href="images/car.jpg" data-lightgallery="item">
+                <div class="thumbnail-creative-figure">
+                  <img src="images/car-small.jpg" alt="" width="195" height="164"/>
+                </div>
+                <div class="thumbnail-creative-caption">
+                  <span class="icon thumbnail-creative-icon linearicons-magnifier">
+                  </span>
+                </div>
+              </a>
+            </article>
+            <article class="thumbnail thumbnail-creative">
+              <a href="images/car.jpg" data-lightgallery="item">
+                <div class="thumbnail-creative-figure">
+                  <img src="images/car-small.jpg" alt="" width="195" height="164"/>
+                </div>
+                <div class="thumbnail-creative-caption">
+                  <span class="icon thumbnail-creative-icon linearicons-magnifier">
+                  </span>
+                </div>
+              </a>
+            </article>
+            <article class="thumbnail thumbnail-creative">
+              <a href="images/car.jpg" data-lightgallery="item">
+                <div class="thumbnail-creative-figure">
+                  <img src="images/car-small.jpg" alt="" width="195" height="164"/>
+                </div>
+                <div class="thumbnail-creative-caption">
+                  <span class="icon thumbnail-creative-icon linearicons-magnifier">
+                  </span>
+                </div>
+              </a>
+            </article>
+          </div>
+        </div>
       </section>
       
       <footer class="section footer-modern context-dark footer-modern-2">
@@ -183,10 +216,7 @@
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
-            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-            crossorigin="anonymous">
-    </script>
-    <script src="js/Story-Show-Gallery-master/ssg.js"></script>
+    <script src="jquery.min.js"></script>
+    <script src="js/lightgallery.min.js"></script>
   </body>
 </html>
