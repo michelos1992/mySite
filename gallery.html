@@ -8,10 +8,10 @@
     <meta charset="utf-8">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <!-- Stylesheets-->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:100,300,300i,400,500,600,700,900%7CRaleway:500">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/Story-Show-Gallery-master/ssg.css" type="text/css">
   </head>
   <body>
     <div class="preloader">
@@ -120,12 +120,10 @@
         </div>
       </section>
 
-      <section class="page_gallery">
-        <div class="container">
-          <div class="row">
-            
-          </div>
-        </div>
+      <section class="fs gallery" SSG.run();>
+          <a href="images/car.jpg"><img src="images/car-small.jpg" onclick="SSG.run({fs:true, initImgID: 4 });"></a>
+          <a href="images/car.jpg"><img src="images/car-small.jpg" onclick="SSG.run({fs:true, initImgID: 4 });"></a>
+          <a href="images/car.jpg"><img src="images/car-small.jpg" onclick="SSG.run({fs:true, initImgID: 4 });"></a>
       </section>
       
       <footer class="section footer-modern context-dark footer-modern-2">
@@ -185,5 +183,10 @@
     <!-- Javascript-->
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" 
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous">
+    </script>
+    <script src="js/Story-Show-Gallery-master/ssg.js"></script>
   </body>
 </html>
